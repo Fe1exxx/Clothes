@@ -399,7 +399,7 @@ strike {
     background-color: white;
     border: 1px solid black;
     color: black;
-	margin: 0;
+    margin: 0;
 }
 
 .vievNowText {
@@ -407,12 +407,234 @@ strike {
 }
 
 .Line-4 {
-  width: 1400px;
-  height: 1px;
-  margin: 63px 20px 64px;
-  background-color: rgba(0, 0, 0, 0.1);
+    width: 1400px;
+    height: 1px;
+    margin: 63px 20px 64px;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
-.lineGorizontal{
-	margin: 0;
+.lineGorizontal {
+    margin: 0;
+    margin-bottom: 80px;
+}
+
+.m0 {
+    margin: 0;
+}
+
+.Frame-60 {
+    width: 1239px;
+    height: 866px;
+    border-radius: 40px;
+    background-color: #f0f0f0;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.marginSpan {
+    margin-top: 70px;
+}
+
+.h1MarginBottom {
+    margin-bottom: 64px;
+}
+
+.cardMain {
+    margin: 0 64px;
+}
+
+.blockClothes {
+    width: 1111px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.blockClothesMin {
+    height: 289px;
+    border-radius: 20px;
+    margin: 0 20px;
+}
+
+.blockClothesMax {
+    height: 289px;
+    border-radius: 20px;
+}
+
+.blockAlign {
+    width: 1239px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.OUR-HAPPY-CUSTOMERS {
+    width: 654px;
+    height: 58px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 48px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+}
+
+.arrowLeft {
+    margin-right: 18.6px;
+}
+
+.Frame-22 {
+    width: 400px;
+    display: block;
+    margin: 40px 18px 80px 20px;
+    padding: 28px 32px;
+    border-radius: 20px;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.ratingCard {
+    width: 1239px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Sarah-M {
+    margin-top: 19px;
+    flex-grow: 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.Sarah-M::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background-image: url("/icon/accept.png");
+    background-size: cover;
+    vertical-align: bottom;
+}
+
+.mbStars {
+    margin-bottom: 19px;
+}
+
+.description {
+    height: 88px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.Frame-45 {
+    width: 1140px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 32px;
+    border-radius: 20px;
+    background-color: #000;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.STAY-UPTO-DATE-ABOUT-OUR-LATEST-OFFERS {
+    width: 551px;
+    height: 94px;
+    flex-grow: 0;
+    font-family: "Integral CF Bold";
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.BlockMail {
+    display: block;
+    width: 450px;
+}
+
+.mbBlockMain {
+    margin-bottom: 14px;
+}
+
+.Subscribe-to-Newsletter {
+    width: 200px;
+    height: 22px;
+    flex-grow: 0;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.alignFrame3Email {
+    width: 349px;
+    height: 48px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    padding-left: 17.9px;
+    border-radius: 62px;
+    background-color: #fff;
+}
+
+.alignFrame3Subscribe {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Enter-your-email-address {
+  width: 200px;
+  height: 22px;
+  flex-grow: 0;
+  font-family: Satoshi;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.4);
+  padding-left: 2px;
 }
