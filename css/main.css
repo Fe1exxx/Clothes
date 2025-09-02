@@ -7,6 +7,13 @@ body {
   width: 100%;
 }
 
+main {
+  width: 1355px;
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+}
+
 h3 {
   margin: 0;
   margin-top: 16px;
@@ -125,6 +132,7 @@ p {
 /* MAIN секция */
 .background-wrapper {
   background-color: #f2f0f1;
+  margin-left: 40px;
 }
 
 .Rectangle-2__info {
@@ -137,9 +145,8 @@ p {
 
 .Rectangle-2 {
   display: flex;
-  flex-wrap: wrap;
   align-items: flex-end;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 20px;
@@ -271,6 +278,7 @@ p {
   height: 122px;
   background-color: black;
   margin-bottom: 72px;
+  margin-left: 40px;
 }
 
 .brandLocation {
@@ -414,7 +422,7 @@ strike {
 
 .lineGorizontal {
   margin: 0;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 
 .m0 {
@@ -619,6 +627,7 @@ strike {
 .alignFrame3Subscribe {
   display: flex;
   justify-content: center;
+  margin-top: 14px;
 }
 
 .Enter-your-email-address {
@@ -635,4 +644,107 @@ strike {
   text-align: left;
   color: rgba(0, 0, 0, 0.4);
   padding-left: 2px;
+}
+
+.Frame-52 {
+  width: 1240px;
+  height: 177px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  margin-bottom: 49px;
+}
+
+.Frame-51 {
+  width: 248px;
+  height: 177px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.gap {
+  gap: 25px;
+  margin-right: 80px;
+}
+
+.SHOPCO {
+  height: 23px;
+  flex-grow: 0;
+  font-size: 33.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.We-have-clothes-that-suits-your-style-and-which-youre-proud-to-wear-From-women-to-men {
+  width: 248px;
+  height: 66px;
+  flex-grow: 0;
+  font-family: Satoshi;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.HELP-MENU {
+  width: 98px;
+  height: 18px;
+  flex-grow: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #000;
+}
+
+.About-Features-Works {
+  flex-grow: 0;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+footer {
+  display: flex;
+  margin: 0 auto;
+  width: 1240px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 88px;
+}
+
+.C {
+  width: 269px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.6);
 }
